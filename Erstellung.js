@@ -94,5 +94,5 @@ while (true) {
 
 const Klausur = { fach, hinweis, fragen };
 fs.writeFileSync(`Klausur_${fach}.json`, JSON.stringify(Klausur, null, 2));
-console.log(`\n✅ Klausur gespeichert als: Klausur_${fach}.json` ✅);
+console.log(`\n✅ Klausur gespeichert als: Klausur_${fach}.json ✅`);
 /*abschließend werden die Eingaben als Datei gespeichert - fswriteFileSync schreibt eine Textdatei, Json.stringify übersetzt alles dafür*/
