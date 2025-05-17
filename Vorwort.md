@@ -1,0 +1,6 @@
+![Ergebnisse](<Bildschirmfoto vom 2025-05-17 19-38-43.png>)
+![Klausur - Schülereingabe](<Bildschirmfoto vom 2025-05-17 19-36-59.png>)
+![Aktualisierung - bearbeiten bei der Erstellung](<Bildschirmfoto vom 2025-05-17 19-10-37.png>)
+![Speicherung - weiter bei der Erstellung](<Bildschirmfoto vom 2025-05-17 19-07-35.png>)
+![Entfernung - entfernen bei der Erstellung](<Bildschirmfoto vom 2025-05-17 18-56-12.png>)
+![Frage "bearbeiten, entfernen, weiter" nach Eingabe der Aufgaben](<Bildschirmfoto vom 2025-05-17 18-55-33.png>)
