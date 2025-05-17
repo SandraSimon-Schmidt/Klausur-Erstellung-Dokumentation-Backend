@@ -1,0 +1,46 @@
+{
+  "fach": "MAT-01.25",
+  "hinweis": "Lineare Funktionen",
+  "fragen": [
+    {
+      "frage": "Was kostet ein Taxi mit 3 € Startgebühr und 1,20€/km, wenn du 15 km fahren willst ?",
+      "richtig": "21.-€",
+      "antworten": [
+        "21.-€",
+        "4,20€",
+        "36.-€"
+      ],
+      "punkte": 3
+    },
+    {
+      "frage": "Wieviel Parkgebühr musst du für 3,5 Std. parken zahlen, wenn jede Std. 2.-€ kostet und du aber eine halbe Std. frei parken kannst ?",
+      "richtig": "6.-€",
+      "antworten": [
+        "7.-€",
+        "6.-€",
+        "3,50 €"
+      ],
+      "punkte": 3
+    },
+    {
+      "frage": "Was musst du im halben Jahr an ein Fitnesstudio zahlen, wenn der monatliche Beitrag 25.-€ ist und du eine Anmeldegebühr vo 5.-€ zahlen musst ?",
+      "richtig": "155.-€",
+      "antworten": [
+        "18.-€",
+        "130.-€",
+        "155.-€"
+      ],
+      "punkte": 3
+    },
+    {
+      "frage": "Was kostet es dich 2 Filme zu streamen, wenn du pro Film 7.-€ und eine einmalige Anmeldegebüht von 8.-€ zahlen musst ?",
+      "richtig": "22.-€",
+      "antworten": [
+        "15.-€",
+        "22.-€",
+        "30.-€"
+      ],
+      "punkte": 3
+    }
+  ]
+}
