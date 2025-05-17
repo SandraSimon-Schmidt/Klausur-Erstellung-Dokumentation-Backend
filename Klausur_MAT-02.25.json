@@ -1,0 +1,46 @@
+{
+  "fach": "MAT-02.25",
+  "hinweis": "Prozentrechnung",
+  "fragen": [
+    {
+      "frage": "was kostet ein Pullover, der 20 % reduziert wurde und vor der Reduzierung 60.-€ gekostet hat?",
+      "richtig": "48",
+      "antworten": [
+        "80.-€",
+        "40.-€",
+        "48"
+      ],
+      "punkte": 4
+    },
+    {
+      "frage": "Was kostet ein TV, das 30 % reduziert wurde und vor der Reduzierung 1200.-€ gekostet hat?",
+      "richtig": "840.-€",
+      "antworten": [
+        "360.-€",
+        "900.-€",
+        "840.-€"
+      ],
+      "punkte": 4
+    },
+    {
+      "frage": "Um wieviel Prozent wurde ein Fahrrad reduziert, das vor der Reduzierung 540.-€  und danach 432.-€ gekostet hat?",
+      "richtig": "20%",
+      "antworten": [
+        "25%",
+        "20%",
+        "30%"
+      ],
+      "punkte": 4
+    },
+    {
+      "frage": "Wie teuer war eine Jeans, die nach der Reduzierung um 25 % nur noch 75.-€ kostet?",
+      "richtig": "100.-€",
+      "antworten": [
+        "50.-€",
+        "125.-€",
+        "100.-€"
+      ],
+      "punkte": 4
+    }
+  ]
+}

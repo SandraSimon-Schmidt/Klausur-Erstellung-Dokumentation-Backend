@@ -1,0 +1,36 @@
+{
+  "fach": "DEU-01.25",
+  "hinweis": "Verben",
+  "fragen": [
+    {
+      "frage": "Finde das Verb",
+      "richtig": "Laufen",
+      "antworten": [
+        "Lau",
+        "Laus",
+        "Laufen"
+      ],
+      "punkte": 2
+    },
+    {
+      "frage": "Finde das Verb",
+      "richtig": "Essen",
+      "antworten": [
+        "Essen",
+        "Gericht",
+        "Gar"
+      ],
+      "punkte": 2
+    },
+    {
+      "frage": "Finde das Verb",
+      "richtig": "Coden",
+      "antworten": [
+        "Cool",
+        "Code",
+        "Coden"
+      ],
+      "punkte": 2
+    }
+  ]
+}

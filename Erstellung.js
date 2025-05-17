@@ -69,7 +69,7 @@ while (true) {
 
     if (aktion === 'entfernen') {
         fragen.splice(index, 1);
-        console.log(' Frage entfernt.'); /*bei entfernen wird mit splice im Arr ab dem Index (die Fragennummer) 1 Objekt (eine komplette Frage) gelöscht*/
+        console.log('✅ Frage entfernt. ✅'); /*bei entfernen wird mit splice im Arr ab dem Index (die Fragennummer) 1 Objekt (eine komplette Frage) gelöscht*/
     } else if (aktion === 'bearbeiten') {
         console.log('\n--- Neue Angaben für diese Frage ---');
         const neueFrage = readline.question('Frage: ');
@@ -85,7 +85,7 @@ while (true) {
             antworten: neueAntworten,
             punkte: neuePunkte  /*die neue Frage wird als Arr erstellt*/
         };
-        console.log(' Frage aktualisiert.');
+        console.log('✅ Frage aktualisiert. ✅');
     } else {
         console.log('❌ Unbekannte Aktion.');
     }

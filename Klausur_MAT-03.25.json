@@ -1,0 +1,46 @@
+{
+  "fach": "MAT-03.25",
+  "hinweis": "Zinseszins",
+  "fragen": [
+    {
+      "frage": "Auf wieviel wachsen 1500.-€ nach 6 Jahren mit 4% Zins und Zinseszins ?",
+      "richtig": "1897.95€",
+      "antworten": [
+        "1524.-€",
+        "2000.-€",
+        "1897.95€"
+      ],
+      "punkte": 5
+    },
+    {
+      "frage": "Auf wieviel wachsen 3000.-€ nach 8 Jahren mit 2,5% Zins und Zinseszins ?",
+      "richtig": "3655,29€",
+      "antworten": [
+        "3655,29€",
+        "3002.50€",
+        "3800.-€"
+      ],
+      "punkte": 5
+    },
+    {
+      "frage": "Auf wieviel wachsen 5000.-€ nach 10 Jahren mit 1,8% Zins und Zinseszins ?",
+      "richtig": "5978,01€",
+      "antworten": [
+        "5011,80€",
+        "5551,80€",
+        "5978,01€"
+      ],
+      "punkte": 5
+    },
+    {
+      "frage": "Auf wieviel wachsen 4800.-€ nach 7 Jahren mit 3% Zins und Zinseszins ?",
+      "richtig": "5.880,19 €",
+      "antworten": [
+        "4803.-€",
+        "5.880,19 €",
+        "5073.-€"
+      ],
+      "punkte": 5
+    }
+  ]
+}

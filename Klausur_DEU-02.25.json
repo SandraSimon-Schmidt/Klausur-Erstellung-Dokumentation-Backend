@@ -1,0 +1,36 @@
+{
+  "fach": "DEU-02.25",
+  "hinweis": "Finde das Adjektiv",
+  "fragen": [
+    {
+      "frage": "Finde das Adjektiv",
+      "richtig": "Gar",
+      "antworten": [
+        "Gericht",
+        "Essen",
+        "Gar"
+      ],
+      "punkte": 2
+    },
+    {
+      "frage": "Finde das Adjektiv",
+      "richtig": "Lau",
+      "antworten": [
+        "Laus",
+        "Lau",
+        "Laufen"
+      ],
+      "punkte": 2
+    },
+    {
+      "frage": "Finde das Adjektiv",
+      "richtig": "Cool",
+      "antworten": [
+        "Coiden",
+        "Code",
+        "Cool"
+      ],
+      "punkte": 2
+    }
+  ]
+}
