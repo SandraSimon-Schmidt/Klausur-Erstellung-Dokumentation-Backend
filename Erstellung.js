@@ -2,7 +2,7 @@
 const fs = require('fs');
 const readline = require('readline-sync');
 
-/*Hier ist der zweite Parameter der Funktion readline.question  ein Objekt mit Wert true, das das Passwort verbirgt*/
+/*Hier ist der zweite Parameter der Funktion readline.question ein Objekt mit Wert true, das das Passwort verbirgt*/
 const passwort = readline.question('Passwort der Lehrkraft: ', { hideEchoBack: true });
 if (passwort !== 'sandra') {
     console.log('Zugriff verweigert.');
@@ -48,7 +48,7 @@ while (true) {
     });
 
     console.log(`  -> Richtige Antwort: ${frageObjekt.richtig}`);
-    console.log(`  -> Punkte: ${frageObjekt.punkte}`);    /*zeigtb richtige Antwort und Punktzahl*/
+    console.log(`  -> Punkte: ${frageObjekt.punkte}`);    /*zeigt richtige Antwort und Punktzahl*/
 });
 
    
