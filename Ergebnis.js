@@ -8,7 +8,7 @@ if (passwort !== 'sandra') {
 }
 console.log('\nZugriff erlaubt.\n');
 
-/*Alle Ergebnisdateien im aktuellen Ordner auslesen, die mit "Ergebnis_" beginnen und auf ".json" enden) */
+/*Alle Ergebnisdateien im aktuellen Ordner auslesen, die mit "Ergebnis_" beginnen und auf ".json" enden */
 const dateien = fs.readdirSync('.').filter(f => f.startsWith('Ergebnis_') && f.endsWith('.json'));
 
 let schuelerErgebnisse = {};/*Objekt wird später gefüllt */ 
@@ -29,7 +29,8 @@ dateien.forEach(datei => {  /*alle Daten werden verarbeitet */
                 fächer: {}
             };
         }
-/*Ergebnisse je Fach für den Schüler */
+/*Ergebnisse je Fach für den Schüler -> Ein Objekt mit den Klausur-Ergebnissen (Datum, Punkte, Note etc.) 
+wird im verschachtelten Objekt "schuelerErgebnisse" unter dem Schülernamen und Fach gespeichert. */
     schuelerErgebnisse[daten.name].fächer[daten.fach] = {
     datum: daten.datum,
     erreichtePunkte: daten.erreichtePunkte,
@@ -55,6 +56,7 @@ let fachStatistik = {};
 
 /*Noten aus allen Schülerdaten sammeln und statistische Werte berechnen */
 for (const info of Object.values(schuelerErgebnisse)) {
+    /*Für jeden Schüler (info = Daten eines Schülers) */
     for (const [fach, daten] of Object.entries(info.fächer)) {
         if (typeof daten.note !== 'number') continue;
 /*Neues Fach in Statistik anlegen*/
@@ -71,6 +73,7 @@ for (const info of Object.values(schuelerErgebnisse)) {
 
 console.log('\n--- Noten-Statistik pro Fach ---'); 
 for (const [fach, stats] of Object.entries(fachStatistik)) { /*Object.entries gibt ein Arr mit Fach/Note aus */
+   /* fach ist der Key,stats ist der Wert, also das Objekt mit den Details */
     const durchschnitt = (stats.gesamtNote / stats.anzahl).toFixed(2);
     console.log(`\n ${fach}:`);
     console.log(`  - Anzahl Klausuren: ${stats.anzahl}`);

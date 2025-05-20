@@ -83,7 +83,7 @@ while (true) {
             frage: neueFrage,
             richtig: neueRichtig,
             antworten: neueAntworten,
-            punkte: neuePunkte  /*die neue Frage wird als Arr erstellt*/
+            punkte: neuePunkte  /*die neue Frage wird als Objekt im Arr erstellt*/
         };
         console.log('✅ Frage aktualisiert. ✅');
     } else {

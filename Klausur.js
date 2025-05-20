@@ -7,7 +7,7 @@ const datei = `Klausur_${fach}.json`; /* die von Erstellung.js erstellte jsondat
 
 if (!fs.existsSync(datei)) {
     console.log('Keine Klausur im Fach vorhanden.');
-    process.exit(); /*statt return*/
+    process.exit(); /*wie return in einer Funktion*/
 }
 
 const Klausur = JSON.parse(fs.readFileSync(datei)); /*von String zu Objekt - const datei s.o.*/
@@ -19,6 +19,7 @@ let datum = '';   /*leere Variabeln, werden mit Schleifen abgefragt */
 while (!name) name = readline.question('Name: ');
 while (!klasse) klasse = readline.question('Klassenstufe: ');
 while (!datum) datum = readline.question('Datum: ');
+/* ! heißt nein...Solange keine gültige Eingabe erfolgt ist (leerer String), wird die Frage wiederholt*/
 
 console.log(`\n${Klausur.hinweis}\n`); /*const Klausur = fach, hinweis, fragen, Objekt aus Datei Erstellung.js */
 
@@ -27,15 +28,21 @@ let erreichtePunkte = 0;
 
 let antworten = []; /* das wird von unten gefüllt mit push */
 
+/*Für jede Frage in der Klausur: */
 Klausur.fragen.forEach((frageObjekt, index) => {
+    /*Zeigt die Frage mit einer fortlaufenden Nummer an (1, 2, 3, ...) */
     console.log(`\nFrage ${index + 1}: ${frageObjekt.frage}`);
+   /*Für jede mögliche Antwort zur aktuellen Frage: */ 
     frageObjekt.antworten.forEach((antwort, i) => {
-        console.log(`  ${i + 1}. ${antwort}`);
+    /*Zeigt die Antwort ebenfalls nummeriert an */    
+    console.log(`  ${i + 1}. ${antwort}`);
     });  /*Klausur.fragen ist ein Array von Fragen (jeweils ein Objekt). forEach führt alle aus */
 
     let wahl;
+    /*Schleife zur Eingabe einer gültigen Auswahl (nur 1, 2 oder 3 erlaubt) */
     while (true) {
         wahl = readline.questionInt('Deine Wahl (1-3): ');
+        /*Nutzerantwort als ganze Zahl abfragen */
         if (wahl >= 1 && wahl <= 3) break;
         console.log('Bitte nur 1, 2 oder 3 eingeben.');
     }
